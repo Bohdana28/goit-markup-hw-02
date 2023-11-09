@@ -10,7 +10,7 @@ body {
     background-color: #FFFFFF; 
 }
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway",sans-serif;
     color: #4d5ae5;
     font-family: Raleway;
     font-size: 18px;
@@ -32,9 +32,8 @@ body {
 .menu-list:hover, .menu-list:focus {
     color: #404BBF;
 }
-.studio:active {
-    color: #404BBF;
-    text-decoration: underline;
+.main-address {
+    font-style: normal;
 }
 .data {
     color: #434455;
@@ -59,7 +58,6 @@ body {
     letter-spacing: 0.02em;
 }
 .button-type {
-    border-radius: 4px;
     background: #4D5AE5;
     color: #FFF;
     font-size: 16px;
@@ -98,7 +96,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team {
+.team-item {
     background-color: #FFFFFF;
 }
 .footer-about {
@@ -112,5 +110,5 @@ letter-spacing: 0.02em;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
