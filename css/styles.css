@@ -123,7 +123,7 @@ button {
     color: rgb(255 255 255);
 }
 
-.order-button {
+.hero-button {
     font-family: var(--prymary-font);
     font-weight: 500;
     font-size: 16px;
@@ -133,8 +133,8 @@ button {
     background: rgb(77 90 229);
 }
 
-.order-button:hover,
-.order-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background: rgb(var(--accent-color));
 }
 
