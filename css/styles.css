@@ -2,8 +2,7 @@
 :root {
     --prymary-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
-    --prymary-text-color: 46 47 66;
-    --secondary-text-color: 67 68 85;
+    --prymary-text-color: 67 68 85;;
     --accent-color: 64 75 191;
     --body-bg-color: 255 255 255;
     --secondary-body-bg-color: 46 47 66;
@@ -14,14 +13,13 @@
 /*=========COMMON STYLES==========*/
 
 body {
-   font-family: var(--prymary-font), var(--secondary-font);
+   font-family: var(--prymary-font);
    color: rgb(var(--prymary-text-color));
    background-color: rgb(var(--body-bg-color)); 
 }
 a {
     text-decoration: none;
-    color: inherit;
-    font-style: normal;  
+    color: inherit;  
 }
 
 ul, ol {
@@ -42,6 +40,7 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .visually-hidden {
@@ -65,13 +64,15 @@ button {
 .main-logo {
     font-family: var(--secondary-font);
     font-weight: 700;
+    color: rgb(77 90 229);
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.accent-logo {
-   color: rgb(77 90 229); 
+
+.span-one {
+    color: rgb(46, 47, 66);
 }
 
 .menu-link {
@@ -87,10 +88,11 @@ button {
     color: rgb(var(--accent-color));
 }
 .menu-link:active {
-    border-radius: 2px;
-    width: 48px;
-    height: 4px;
     color: rgb(var(--accent-color));
+}
+
+.main-address{
+    font-style: normal;
 }
 
 .address-link {
@@ -98,8 +100,6 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
-
 }
 
 .address-link:hover,
@@ -123,14 +123,12 @@ button {
 }
 
 .order-button {
+    font-family: var(--prymary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: rgb(255 255 255);        
-    border-radius: 4px;
-    padding: 16px 32px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: rgb(77 90 229);
 }
 
@@ -159,13 +157,23 @@ button {
 
 /*=========/ABOUT SECTION==========*/
 
+/*=========OUR TEAM SECTION==========*/
+.section-team {
+    background: rgb(244 244 253);
+}
+.team-item {
+    background-color: rgb(var(--body-bg-color));
+}
+
+/*=========/OUR TEAM SECTION==========*/
+
 /*=========FOOTER==========*/
 .page-footer {
     background-color: rgb(var(--secondary-body-bg-color));
 }
 
-.footer-logo {
-   color:  rgb(244, 244, 253); 
+.span-two {
+    color: rgb(244 244 253);
 }
 .footer-prg {
     color: rgb(244 244 253);
